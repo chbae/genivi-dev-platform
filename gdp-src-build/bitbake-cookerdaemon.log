@@ -1,0 +1,311 @@
+--- Starting bitbake server pid 4526 at 2018-03-09 15:19:01.770884 ---
+Started bitbake server pid 4526
+DEBUG: Found bblayers.conf (/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/bblayers.conf)
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/bblayers.conf:1: including templates/bblayers.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/templates/bblayers.inc:44: including /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/developer.conf
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-poky
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-yocto-bsp
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi-bsp
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-oe
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-filesystems
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-gnome
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-python
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-gplv2
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-qt5
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-sdl
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-erlang
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-genivi-dev
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-ivi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-qt5
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-rvi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/poky
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-oic
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-iot-web
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-erlang
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-rvi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-lgsvl-browser
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-flatpak
+Entering server connection loop
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:740: including conf/abi_version.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:741: including conf/site.conf
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:742: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:743: including conf/local.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/local.conf:1: including templates/local.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:744: including conf/multiconfig/default.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:745: including conf/machine/qemux86-64.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:10: including conf/machine/include/qemu.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:12: including conf/machine/include/tune-core2.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/include/tune-core2.inc:15: including conf/machine/include/tune-i586.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/include/tune-i586.inc:3: including conf/machine/include/x86/arch-x86.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:13: including conf/machine/include/qemuboot-x86.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:746: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:747: including conf/distro/poky-ivi-systemd.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi/conf/distro/poky-ivi-systemd.conf:13: including conf/distro/include/default-providers-ivi.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:748: including conf/distro/defaultsetup.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/world-broken.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/include/tcmode-default.inc:71: including conf/distro/include/as-needed.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:749: including conf/documentation.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:750: including conf/licenses.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:751: including conf/sanity.conf
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/patch.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:4)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/terminal.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/staging.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/mirrors.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/utils.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:8)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/utility-tasks.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/metadata_scm.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/logging.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_rpm.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_rpm.bbclass:1)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/packagedata.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/chrpath.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/insane.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:45)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_ipk.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/linuxloader.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/cache/bb_codeparser.dat'
+Accepting [<socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>]
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'dump_signatures': [], 'prefile': [], 'extra_assume_provided': [], 'invalidate_stamp': None, 'abort': True, 'postfile': [], 'server_timeout': None, 'profile': False, 'debug_domains': [], 'dry_run': False, 'debug': 0, 'force': False, 'verbose': False}, {'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'LC_ADDRESS': 'ko_KR.UTF-8', 'LC_TIME': 'ko_KR.UTF-8', 'LC_NUMERIC': 'ko_KR.UTF-8', 'BUILDDIR': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'MAIL': '/var/mail/changhyeok.bae', 'XDG_SESSION_ID': '880', 'SHLVL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_PAPER': 'ko_KR.UTF-8', 'PS1': '\\[\\033[01;32m\\]\\u@\\h\\[\\033[01;34m\\]\\w\\[\\033[01;33m\\]$(__git_ps1)\\[\\033[01;34m\\] \\$\\[\\033[00m\\] ', 'SSH_CLIENT': '192.168.1.76 61360 22', 'HOME': '/home/changhyeok.bae', 'PATH': '/home/changhyeok.bae/work/genivi/rocko/poky/scripts:/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin:/home/changhyeok.bae/bin:/home/changhyeok.bae/.local/bin:/home/changhyeok.bae/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'OLDPWD': '/home/changhyeok.bae/work/genivi/rocko', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LC_MONETARY': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', '_': '/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin/bitbake', 'SSH_CONNECTION': '192.168.1.76 61360 192.168.1.34 22', 'TERM': 'xterm-256color', 'USER': 'changhyeok.bae', 'SSH_TTY': '/dev/pts/31', 'LANG': 'en_US.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'LC_NAME': 'ko_KR.UTF-8', 'LOGNAME': 'changhyeok.bae', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'PWD': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'BBPATH': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s'}, ['/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin/bitbake', 'genivi-dev-platform']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['genivi-dev-platform'], 'build']
+Connecting Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 4662 at 2018-03-09 15:19:44.011744 ---
+Started bitbake server pid 4662
+DEBUG: Found bblayers.conf (/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/bblayers.conf)
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/bblayers.conf:1: including templates/bblayers.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/templates/bblayers.inc:43: including /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/developer.conf
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-poky
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-yocto-bsp
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi-bsp
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-oe
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-filesystems
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-python
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-gplv2
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-qt5
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-sdl
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-erlang
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-genivi-dev
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-ivi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-qt5
+Entering server connection loop
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-rvi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/poky
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-oic
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-iot-web
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-erlang
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-rvi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-lgsvl-browser
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-flatpak
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:740: including conf/abi_version.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:741: including conf/site.conf
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:742: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:743: including conf/local.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/local.conf:1: including templates/local.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:744: including conf/multiconfig/default.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:745: including conf/machine/qemux86-64.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:10: including conf/machine/include/qemu.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:12: including conf/machine/include/tune-core2.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/include/tune-core2.inc:15: including conf/machine/include/tune-i586.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/include/tune-i586.inc:3: including conf/machine/include/x86/arch-x86.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:13: including conf/machine/include/qemuboot-x86.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:746: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:747: including conf/distro/poky-ivi-systemd.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi/conf/distro/poky-ivi-systemd.conf:13: including conf/distro/include/default-providers-ivi.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:748: including conf/distro/defaultsetup.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/world-broken.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/include/tcmode-default.inc:71: including conf/distro/include/as-needed.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:749: including conf/documentation.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:750: including conf/licenses.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:751: including conf/sanity.conf
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/patch.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:4)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/terminal.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/staging.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/mirrors.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/utils.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:8)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/utility-tasks.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/metadata_scm.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/logging.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_rpm.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_rpm.bbclass:1)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/packagedata.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/chrpath.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/insane.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:45)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_ipk.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/linuxloader.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/cache/bb_codeparser.dat'
+Accepting [<socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>]
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'verbose': False, 'dry_run': False, 'invalidate_stamp': None, 'prefile': [], 'profile': False, 'abort': True, 'extra_assume_provided': [], 'server_timeout': None, 'force': False, 'debug': 0, 'debug_domains': [], 'postfile': [], 'dump_signatures': []}, {'SSH_TTY': '/dev/pts/31', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'HOME': '/home/changhyeok.bae', 'USER': 'changhyeok.bae', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'SSH_CLIENT': '192.168.1.76 61360 22', 'MAIL': '/var/mail/changhyeok.bae', '_': '/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin/bitbake', 'PWD': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'PS1': '\\[\\033[01;32m\\]\\u@\\h\\[\\033[01;34m\\]\\w\\[\\033[01;33m\\]$(__git_ps1)\\[\\033[01;34m\\] \\$\\[\\033[00m\\] ', 'LC_PAPER': 'ko_KR.UTF-8', 'LC_MONETARY': 'ko_KR.UTF-8', 'OLDPWD': '/home/changhyeok.bae/work/genivi/rocko', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'LOGNAME': 'changhyeok.bae', 'LC_ADDRESS': 'ko_KR.UTF-8', 'SHLVL': '1', 'XDG_SESSION_ID': '880', 'BBPATH': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'BUILDDIR': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'SSH_CONNECTION': '192.168.1.76 61360 192.168.1.34 22', 'LC_TIME': 'ko_KR.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'PATH': '/home/changhyeok.bae/work/genivi/rocko/poky/scripts:/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin:/home/changhyeok.bae/bin:/home/changhyeok.bae/.local/bin:/home/changhyeok.bae/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'TERM': 'xterm-256color', 'LC_NAME': 'ko_KR.UTF-8', 'SHELL': '/bin/bash'}, ['/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin/bitbake', 'genivi-dev-platform']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['genivi-dev-platform'], 'build']
+Connecting Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 5450 at 2018-03-09 15:24:06.763183 ---
+Started bitbake server pid 5450
+DEBUG: Found bblayers.conf (/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/bblayers.conf)
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/bblayers.conf:1: including templates/bblayers.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/templates/bblayers.inc:45: including /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/developer.conf
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-poky
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-yocto-bsp
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi-bsp
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-oe
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-gnome
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-networking
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-filesystems
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-openembedded/meta-python
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-gplv2
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-qt5
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-sdl
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-erlang
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-genivi-dev
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-ivi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-qt5
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/meta-rvi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-genivi-dev/poky
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-oic
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-iot-web
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-erlang
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-rvi
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-lgsvl-browser
+DEBUG: Adding layer /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-flatpak
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:740: including conf/abi_version.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:741: including conf/site.conf
+Entering server connection loop
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:742: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:743: including conf/local.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/conf/local.conf:1: including templates/local.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:744: including conf/multiconfig/default.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:745: including conf/machine/qemux86-64.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:10: including conf/machine/include/qemu.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:12: including conf/machine/include/tune-core2.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/include/tune-core2.inc:15: including conf/machine/include/tune-i586.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/include/tune-i586.inc:3: including conf/machine/include/x86/arch-x86.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/machine/qemux86-64.conf:13: including conf/machine/include/qemuboot-x86.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:746: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:747: including conf/distro/poky-ivi-systemd.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../meta-ivi/meta-ivi/conf/distro/poky-ivi-systemd.conf:13: including conf/distro/include/default-providers-ivi.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:748: including conf/distro/defaultsetup.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/world-broken.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/include/tcmode-default.inc:71: including conf/distro/include/as-needed.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:749: including conf/documentation.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:750: including conf/licenses.conf
+DEBUG: CONF /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/conf/bitbake.conf:751: including conf/sanity.conf
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/patch.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:4)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/terminal.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/staging.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/mirrors.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/utils.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:8)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/utility-tasks.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/metadata_scm.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/logging.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_rpm.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_rpm.bbclass:1)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/packagedata.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/chrpath.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/insane.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package.bbclass:45)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/package_ipk.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/linuxloader.bbclass (from /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/changhyeok.bae/work/genivi/rocko/gdp-src-build/../poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build/cache/bb_codeparser.dat'
+Accepting [<socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>]
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'dump_signatures': [], 'abort': True, 'profile': False, 'invalidate_stamp': None, 'force': False, 'debug_domains': [], 'dry_run': False, 'server_timeout': None, 'verbose': False, 'postfile': [], 'prefile': [], 'debug': 0, 'extra_assume_provided': []}, {'SHELL': '/bin/bash', 'SSH_CLIENT': '192.168.1.76 61360 22', 'OLDPWD': '/home/changhyeok.bae/work/genivi/rocko', 'SSH_CONNECTION': '192.168.1.76 61360 192.168.1.34 22', 'XDG_SESSION_ID': '880', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'SHLVL': '1', '_': '/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin/bitbake', 'LC_PAPER': 'ko_KR.UTF-8', 'LOGNAME': 'changhyeok.bae', 'LC_ALL': 'en_US.UTF-8', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'changhyeok.bae', 'XDG_RUNTIME_DIR': '/run/user/1001', 'BUILDDIR': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'LANG': 'en_US.UTF-8', 'SSH_TTY': '/dev/pts/31', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LC_NAME': 'ko_KR.UTF-8', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_MONETARY': 'ko_KR.UTF-8', 'PATH': '/home/changhyeok.bae/work/genivi/rocko/poky/scripts:/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin:/home/changhyeok.bae/bin:/home/changhyeok.bae/.local/bin:/home/changhyeok.bae/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'MAIL': '/var/mail/changhyeok.bae', 'LC_TIME': 'ko_KR.UTF-8', 'HOME': '/home/changhyeok.bae', 'PS1': '\\[\\033[01;32m\\]\\u@\\h\\[\\033[01;34m\\]\\w\\[\\033[01;33m\\]$(__git_ps1)\\[\\033[01;34m\\] \\$\\[\\033[00m\\] ', 'LC_ADDRESS': 'ko_KR.UTF-8', 'PWD': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'BBPATH': '/home/changhyeok.bae/work/genivi/rocko/gdp-src-build', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop'}, ['/home/changhyeok.bae/work/genivi/rocko/poky/bitbake/bin/bitbake', 'genivi-dev-platform']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['genivi-dev-platform'], 'build']
